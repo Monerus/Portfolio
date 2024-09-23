@@ -15,7 +15,7 @@ const Header = () => {
         </nav>
         <ul className={styles.contact}>
             <li>
-            <NavLink>
+            <NavLink to={'https://github.com/Monerus'}>
                     <img src={Github} alt="github" width={30}/>
             </NavLink>
             </li>
