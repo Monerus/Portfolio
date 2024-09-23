@@ -1,0 +1,43 @@
+.project {
+    max-width: 1110px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    h1 {
+        color: #FFF;
+    }
+    .wrapper {
+        display: flex;
+        gap: 40px;
+        a {
+            text-decoration: none;
+        }
+    }
+}
+.component {
+    margin-bottom: 73px;
+    margin-top: 50px;
+    color: #FFF;
+    border-radius: 10px;
+    border: solid 1px #FFF;
+    img {
+        border-radius: 0 0 10px 10px;
+    }
+}
+@media (max-width: 1110px) {
+    .project {
+        padding: 10px 15px;
+        h1 {
+            font-size: 28px;
+        }
+        .wrapper {
+            display: grid;
+            gap: 10px;
+        }
+    }
+    .component {
+        img {
+            max-width: 300px;
+        }
+    }
+}

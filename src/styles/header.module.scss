@@ -1,0 +1,43 @@
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-width: 1420px;
+    font-weight: 500;
+    margin: auto;
+    font-size: 22px;
+    .logo {
+        padding: 12px 12px;
+        background: #fff;
+        color: black;
+        border-radius: 10px;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+   .contact {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+} 
+}
+
+@media (max-width: 1110px) {
+    header {
+        padding: 0px 15px;
+
+    nav {
+        padding-left: 15px;
+    }
+    .logo {
+        padding: 5px 10px;
+    }
+    a {
+        gap: 1px;
+    }
+    .contact {
+        gap: 15px;
+    }
+    }
+}

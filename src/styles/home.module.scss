@@ -1,0 +1,42 @@
+main {
+    max-width: 1420px;
+    overflow: hidden;
+    margin: auto;
+    .container {
+        display: flex;
+        padding-top: 50px;
+        color: #FFF;
+        font-style: normal;
+        font-size: 22px;
+        .text {
+            padding-top: 50px;
+        }
+        a {
+            text-decoration: none;
+        }
+        span {
+            font-style: italic;
+            color: #d05f5f;
+            text-decoration: underline;
+        }
+    }   
+}
+@media (max-width: 1110px) {
+    main {
+        padding: 10px 10px;
+        max-width: 430px;
+    .container {
+        display: grid;
+        font-size: 14px;
+    }
+    .text {
+        text-align: center;
+    }
+    .contact {
+        gap: 15px;
+    }
+    }
+    .image img{
+        width: 350px;
+    }
+}
